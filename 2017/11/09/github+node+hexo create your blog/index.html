@@ -102,7 +102,7 @@
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3112432-ec91f52285d5f0b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3112432-a0b90bca5411d186.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/3112432-47c70e99f0217333.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2017-11-10T01:50:46.339Z">
+<meta property="og:updated_time" content="2017-11-10T11:33:33.577Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="windows系统中使用github+node+hexo 搭建属于自己的博客【2017完整版】">
 <meta name="twitter:description" content="1.下载安装 github1.下载安装Git，安装在哪里都可以，我安装在E盘，这个安装网上有很多教程，一般来说next下去也没问题  2.在github官网申请注册帐号，需要用到邮箱，注册后一定要记住三个东西：你的用户名(username)，你的密码(password)，以及你的邮箱(email) 3.新建一个仓库（new repository），命名一定是你的github的用户名(usernam">
@@ -255,7 +255,7 @@
             
               <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
             
-            Suche
+            Search
           </a>
         </li>
       
@@ -340,7 +340,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-11-09T21:12:56+08:00">
                 2017-11-09
@@ -361,7 +361,7 @@
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">in</span>
+                <span class="post-meta-item-text">In</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
@@ -437,8 +437,8 @@
 <p><img src="http://upload-images.jianshu.io/upload_images/3112432-ec91f52285d5f0b5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <h2 id="hexo与github关联"><a href="#hexo与github关联" class="headerlink" title="hexo与github关联"></a>hexo与github关联</h2><p>1.还是打开你的<code>_config.yml</code>文档，将最下面的内容修改一下，<code>type</code>改成<code>git</code>，<code>repo</code>就是我们前面说到的下载安装github的第四点所复制下来的东西。听不懂？看图：</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/3112432-a0b90bca5411d186.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p>2.配置完成后保存，然后鼠标右键单击你的hexo文件夹，输入<code>npm instal hexo-deployer-git  --save</code>。</p>
-<p>3.关键点来了-第2点完成后，将你的代码推到网上去：依次出入<code>hexo clean</code>,<code>hexo g</code>, <code>hexo d</code>。</p>
+<p>2.配置完成后保存，然后鼠标右键单击你的hexo文件夹，输入<code>npm instal hexo-deployer-git  --save</code>，下载安装上传控件。</p>
+<p>3.关键点来了-第2点完成后，将你的代码推到网上去：依次输入<code>hexo clean</code>,<code>hexo g</code>, <code>hexo d</code>。</p>
 <p>4.稍等5-15分钟，然后打开浏览器输入你的<code>username.github.io</code>，你就可以看到你的博客啦。</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/3112432-47c70e99f0217333.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 <h2 id="发表文章"><a href="#发表文章" class="headerlink" title="发表文章"></a>发表文章</h2><p>你要写文章，就在hexo\source_posts文件夹里面创建.md文档就好啦(关于md可以百度教程简单学学，基本格式十分钟就学会啦)。写完了保存后，依旧是<code>hexo g</code>,<code>hexo d</code>，就上传到你的博客了。</p>
@@ -544,10 +544,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Inhaltsverzeichnis
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Übersicht
+            Overview
           </li>
         </ul>
       
@@ -572,7 +572,7 @@
                 <a href="/archives">
               
                   <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">Artikel</span>
+                  <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
@@ -583,7 +583,7 @@
               <div class="site-state-item site-state-categories">
                 
                   <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">Kategorien</span>
+                  <span class="site-state-item-name">categories</span>
                 
               </div>
             
@@ -675,7 +675,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
 
 
